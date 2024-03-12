@@ -1,0 +1,14 @@
+{
+	"title": "Obsidian Title Extractor",
+	"subtitle": "A convenience plugin for the frantic note-taker",
+	"imageAltProperty": "Screenshot of a Obsidian note with an auto-extracted title",
+	"showAboveFold": false,
+	"status": "mvp",
+	"showOnPortfolio": false,
+	"links": [
+		{
+			"title": "GitHub",
+			"url": "https://github.com/koljapluemer/obsidian-title-extractor"
+		}
+	]
+}

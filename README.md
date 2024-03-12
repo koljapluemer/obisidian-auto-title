@@ -1,5 +1,8 @@
 # Obsidian Title Extractor
 
+![Project Image](/doc/img/project.png)
+
+
 Tired of pasting your heading into your note's title? Tired of dealing with `Untitled307.md`?
 
 This Obisidan plugin provides you with a command to automatically extract the beginning of your note and make it the file title.
@@ -43,7 +46,7 @@ This heavy-headed revel east and west
 Makes us traduced and tax’d of other nations: 
 ```
 
-*the plugin will generate the following title:* `Ay, marry, is’t_ But to my mind, though I am native here And to.md`
+*the plugin will generate the following title* `Ay, marry, is’t_ But to my mind, though I am native here And to.md`
 
 #### Exclude frontmatter
 
@@ -65,9 +68,9 @@ estremo
 extreme, (the) utmost, (the) farthest, terminal, (the) outermost, drastic, excessive, intense
 ```
 
-* *if you have set **exclude frontmatter** to **true** the plugin will generate the following title:* `-estremo --- extreme, (the) utmost, (the) farthest, terminal,.md`
+* *if you have set **exclude frontmatter** to **true** the plugin will generate the following title* `-estremo --- extreme, (the) utmost, (the) farthest, terminal,.md`
 
-* *if you have set **exclude frontmatter** to **false** the plugin will generate the following title:* `--- interval_ 1 repetition_ 1 efactor_ 2.6 dueAt_ 2023-07-19T13.md`
+* *if you have set **exclude frontmatter** to **false** the plugin will generate the following title* `--- interval_ 1 repetition_ 1 efactor_ 2.6 dueAt_ 2023-07-19T13.md`
 
 
 
@@ -86,9 +89,9 @@ Per default, the plugin will only use the first line of your note to generate th
 
 ```
 
-* *if you have set **consider only first line** to **true** the plugin will generate the following title:* `Tamara de Lempicka.md`
+* *if you have set **consider only first line** to **true** the plugin will generate the following title* `Tamara de Lempicka.md`
 
-* *if you have set **consider only first line** to **false** the plugin will generate the following title:* `Tamara de Lempicka was a Polish painter who spent her working.md`
+* *if you have set **consider only first line** to **false** the plugin will generate the following title* `Tamara de Lempicka was a Polish painter who spent her working.md`
 
 
 #### Strip Markdown
@@ -104,9 +107,9 @@ Per default, the plugin will only use the first line of your note to generate th
 
 ```
 
-* *if you have set **strip markdown** to **true** the plugin will generate the following title:* `Hebbian Learning "Cells that fire together wire together.".md`
+* *if you have set **strip markdown** to **true** the plugin will generate the following title* `Hebbian Learning "Cells that fire together wire together.".md`
 
-* *if you have set **strip markdown** to **false** the plugin will generate the following title:* `## [Hebbian Learning](https___en.wikipedia.org_wiki_Hebbian_theory) > "Cells that fire.md`
+* *if you have set **strip markdown** to **false** the plugin will generate the following title* `## [Hebbian Learning](https___en.wikipedia.org_wiki_Hebbian_theory) > "Cells that fire.md`
 
 ### Compatibility Settings
 
@@ -144,9 +147,9 @@ I heavily recommend using this option together with **replace spaces with unders
 München / Muenchen / Muenchén, Múnich; Μόναχο, מינכן, ミュンヘン, 뮌헨, มิวนิก, ميونيخ, Мюнхен, 慕尼黑, 蒙典, მიუნხენი.
 ```
 
-* *if you have set this option to **true** the plugin will generate the following title:* `10_Transliterations_of_Munich_I__love__3__München___Muenchen___Muenchén_Múnich_Μόναχο.md`
+* *if you have set this option to **true** the plugin will generate the following title* `10_Transliterations_of_Munich_I__love__3__München___Muenchen___Muenchén_Múnich_Μόναχο.md`
 
-* *if you have set this option to **false** the plugin will generate the following title:* `>10_Transliterations_of_Munich_I__love__;3__München___Muenchen___Muenchén,_Múnich;.md`
+* *if you have set this option to **false** the plugin will generate the following title* `>10_Transliterations_of_Munich_I__love__;3__München___Muenchen___Muenchén,_Múnich;.md`
 
 
 #### Strip all characters that are not English letters, dashes or underscores
